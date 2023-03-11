@@ -8,7 +8,7 @@ screen -S shardeum_restart
 
 Run script inside screen 
 ```
-
+wget -q -O shardeum_restart.sh https://raw.githubusercontent.com/garaed/Shardeum_autorestart/main/shardeum_restart.sh && chmod +x shardeum_restart.sh && sudo /bin/bash shardeum_restart.sh
 ```
 
 Dettach screen 
